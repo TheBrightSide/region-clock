@@ -1,0 +1,22 @@
+html {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+a {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0px;
+}
+
+li {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: monospace;
+}

@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title World Clock
+        link(href='/static/region-chooser/stylesheet.css', rel='stylesheet')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel="shortcut icon" href="https://cdn.glitch.com/0a00c8f5-7882-413c-8686-552d6503c4e1%2Ficon_rpC_icon.ico?v=1578856057001")
+        script(src="https://button.glitch.me/button.js")
+    body
+        h1 Region Chooser
+        div(class="glitchButton" style="position:fixed;top:20px;right:20px;")
+        ul
+            each item in links
+                li
+                    a(href='/?region='+item)=item

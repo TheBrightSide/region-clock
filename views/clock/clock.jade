@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title=region
+        link(href='/static/clock/stylesheet.css', rel='stylesheet')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel="shortcut icon" href="https://cdn.glitch.com/0a00c8f5-7882-413c-8686-552d6503c4e1%2Ficon_rpC_icon.ico?v=1578856057001")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+        script.
+            const region = "#{region}";
+    body
+        div(class="center")
+            div(class="clock")
+                div(class="hand hour" data-hour-hand)
+                div(class="hand minute" data-minute-hand)
+                div(class="hand second" data-second-hand)
+            h2(id="time") 00:00:00
+            h2(id="date") Mon Jan 1 1970
+        script(type="text/javascript" src="/static/clock/script.js")
